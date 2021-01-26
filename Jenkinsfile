@@ -8,7 +8,7 @@ pipeline {​​​​​​​​
         stage('Test') {​​​​​​​​
             steps {​​​​​​​​
             
-                sh'./mvnw clean test -e'
+                sh 'mvn clean test -e'
             
             }​​​​​​​​
         }​​​​​​​​
