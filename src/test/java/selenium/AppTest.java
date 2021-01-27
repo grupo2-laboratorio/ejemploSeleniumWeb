@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Test;
 import org.junit.Before;
+import org.junit.Ignore;
 
 /**
  * Unit test for simple App.
@@ -31,6 +32,7 @@ public class AppTest
         driver.navigate().to("https://www.google.com");
     }
 
+    @Ignore
     @Test
     public void shouldAnswerWithTrue()
     {
@@ -44,6 +46,7 @@ public class AppTest
         assertEquals("HandBook Devops - Google Shopping", driver.getTitle());
     }
 
+    @Ignore
     @Test
     public void amazonTest()
     {
