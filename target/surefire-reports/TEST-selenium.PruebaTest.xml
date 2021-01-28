@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.AppTest" time="0.022" tests="2" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.PruebaTest" time="15.924" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,10 +53,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="selenium.AppTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="amazonTest" classname="selenium.AppTest" time="0">
-    <skipped/>
+  <testcase name="PruebaTest" classname="selenium.PruebaTest" time="15.924">
+    <failure message="expected:&lt;[test0987665@test.cl]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[test0987665@test.cl]> but was:<[]>
+	at selenium.PruebaTest.PruebaTest(PruebaTest.java:84)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 43756
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ene. 27, 2021 9:20:47 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
+]]></system-err>
   </testcase>
 </testsuite>

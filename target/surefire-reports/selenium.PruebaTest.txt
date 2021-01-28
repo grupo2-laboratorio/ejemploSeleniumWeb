@@ -1,15 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: selenium.PruebaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.86 s <<< FAILURE! - in selenium.PruebaTest
-prueba(selenium.PruebaTest)  Time elapsed: 5.86 s  <<< ERROR!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=88.0.4324.96)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro-de-Imagemaker.local', ip: 'fe80:0:0:0:a5:1f38:1a69:349b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/6m/bb7_cbvn63v...}, goog:chromeOptions: {debuggerAddress: localhost:58029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 429df7427690efefb5a55004c59f290b
-	at selenium.PruebaTest.prueba(PruebaTest.java:50)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.924 s <<< FAILURE! - in selenium.PruebaTest
+PruebaTest(selenium.PruebaTest)  Time elapsed: 15.924 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[test0987665@test.cl]> but was:<[]>
+	at selenium.PruebaTest.PruebaTest(PruebaTest.java:84)
 
