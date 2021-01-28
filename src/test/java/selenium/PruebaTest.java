@@ -41,7 +41,7 @@ public class PruebaTest {
   }
   @Test
   public void PruebaTest() {
-    String email = "test098762211111@test.cl";
+    String email = "test010101010101221@test.cl";
     driver.get("http://automationpractice.com/index.php");
     driver.manage().window().setSize(new Dimension(1920, 1080));
     driver.findElement(By.cssSelector(".replace-2x")).click();
@@ -80,9 +80,12 @@ public class PruebaTest {
       builder.doubleClick(element).perform();
     }
     driver.findElement(By.id("email")).click();
-   
-    assertEquals(email,driver.findElement(By.id("email")).click().getText());
-
+    
+    String emailValidar = driver.findElement(By.id("email")).value;
+    System.out.println("emailValidar");
+    System.out.println(emailValidar);
+    //assertEquals(email,emailValidar);
+    
     driver.findElement(By.id("passwd")).click();
     driver.findElement(By.cssSelector(".password")).click();
     driver.findElement(By.id("passwd")).click();

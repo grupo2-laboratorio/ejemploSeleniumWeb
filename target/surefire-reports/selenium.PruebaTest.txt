@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: selenium.PruebaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.924 s <<< FAILURE! - in selenium.PruebaTest
-PruebaTest(selenium.PruebaTest)  Time elapsed: 15.924 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[test0987665@test.cl]> but was:<[]>
-	at selenium.PruebaTest.PruebaTest(PruebaTest.java:84)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.523 s - in selenium.PruebaTest

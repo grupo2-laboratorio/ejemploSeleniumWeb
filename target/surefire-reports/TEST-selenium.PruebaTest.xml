@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.PruebaTest" time="15.924" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.PruebaTest" time="36.523" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire/surefirebooter4040138035197568905.jar /Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire 2021-01-27T21-20-46_173-jvmRun1 surefire12232966797808835939tmp surefire_09220614002644840060tmp"/>
+    <property name="sun.java.command" value="/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire/surefirebooter13922823880127734.jar /Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire 2021-01-27T21-28-08_185-jvmRun1 surefire11213934718717360709tmp surefire_014988814516961083405tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/test-classes:/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/classes:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ricardoardiles/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ricardoardiles/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ricardoardiles/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ricardoardiles/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ricardoardiles/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ricardoardiles/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ricardoardiles/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ricardoardiles/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ricardoardiles/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ricardoardiles/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ricardoardiles/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ricardoardiles/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ricardoardiles/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire/surefirebooter4040138035197568905.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ricardoardiles/Documents/Diplomado/modulo4/Selenium/ejemploSeleniumWeb/target/surefire/surefirebooter13922823880127734.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.1+9"/>
@@ -53,16 +53,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="PruebaTest" classname="selenium.PruebaTest" time="15.924">
-    <failure message="expected:&lt;[test0987665@test.cl]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[test0987665@test.cl]> but was:<[]>
-	at selenium.PruebaTest.PruebaTest(PruebaTest.java:84)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 43756
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ene. 27, 2021 9:20:47 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACI?N: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="PruebaTest" classname="selenium.PruebaTest" time="36.523"/>
 </testsuite>
