@@ -81,9 +81,9 @@ public class PruebaTest {
     }
     driver.findElement(By.id("email")).click();
     
-    String emailValidar = driver.findElement(By.id("email")).value;
-    System.out.println("emailValidar");
-    System.out.println(emailValidar);
+    //String emailValidar = driver.findElement(By.id("email")).value;
+    //System.out.println("emailValidar");
+    //System.out.println(emailValidar);
     //assertEquals(email,emailValidar);
     
     driver.findElement(By.id("passwd")).click();
